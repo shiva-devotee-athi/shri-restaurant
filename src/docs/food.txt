@@ -1,0 +1,12 @@
+
+//Categories
+[
+  { name: 'Veg', details: 'Food Type: Veg' },
+  { name: 'Sweet', details: 'Food Type: Sweet' },
+  { name: 'Soup', details: 'Food Type: Soup' },
+  { name: 'Pizza', details: 'Food Type: Pizza' },
+  { name: 'Non-Veg', details: 'Food Type: Non-Veg' },
+  { name: 'Juice', details: 'Food Type: Juice' },
+  { name: 'IceCream', details: 'Food Type: IceCream' },
+  { name: 'Cake', details: 'Food Type: Cake' }
+]

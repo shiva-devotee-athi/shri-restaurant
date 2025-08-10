@@ -1,0 +1,35 @@
+Kitchen
+
+Head Chef (level 1)
+
+Sous Chef (level 2)
+
+Line Cook (level 3)
+
+Service
+
+Floor Manager (1)
+
+Waiter (2)
+
+Busser (3)
+
+Front Office
+
+Receptionist (1)
+
+
+Department
+{
+    "name": "Service",
+    "description": "Floor Man"
+}
+
+
+Designation
+{
+    "name": "Head Chef",
+    "description": "Chef Team Management",
+    "departmentId": "686a1472a72fb5a981b355d7",
+    "level":1
+}

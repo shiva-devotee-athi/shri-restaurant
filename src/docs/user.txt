@@ -1,0 +1,93 @@
+Create
+//OWNER
+{
+      "fullName":"Jeyashri",
+      "email": "jeyashri.r@gmail.com",
+      "mobile": "918870762076",
+      "roleId":"6866ac5d91c041e220534205",
+      "password":"123456789"
+}
+
+//CHEF
+{
+      "fullName":"Rajapandi",
+      "email": "rajapandi@gmail.com",
+      "mobile": "917845968812",
+      "roleId":"68657f0ddfc80da4c489b7f7",
+      "password":"123456789",
+      "isStaff": true
+}
+
+{
+      "fullName":"Krishnakumar",
+      "email": "krishnakumar@gmail.com",
+      "mobile": "917845968852",
+      "roleId":"68657f0ddfc80da4c489b7f7",
+      "password":"123456789",
+      "isStaff": true
+}
+
+{
+      "fullName":"Dilli Babu",
+      "email": "dillibabu@gmail.com",
+      "mobile": "917845968850",
+      "roleId":"68657f0ddfc80da4c489b7f7",
+      "password":"123456789",
+      "isStaff": true
+}
+
+
+//WAITER
+{
+      "fullName":"Siva",
+      "email": "siva.s@gmail.com",
+      "mobile": "918870762469",
+      "roleId":"68657f0ddfc80da4c489b7f6",
+      "password":"123456789",
+      "isStaff": true
+}
+
+{
+      "fullName":"Thiru Muruga",
+      "email": "muruga@gmail.com",
+      "mobile": "918870768469",
+      "roleId":"68657f0ddfc80da4c489b7f6",
+      "password":"123456789",
+      "isStaff": true
+}
+
+{
+      "fullName":"kutty",
+      "email": "kutty@gmail.com",
+      "mobile": "918870762480",
+      "roleId":"68657f0ddfc80da4c489b7f6",
+      "password":"123456789",
+      "isStaff": true
+}
+
+//Customer
+{
+      "fullName":"Deepshika",
+      "email": "deepshika@gmail.com",
+      "mobile": "918870762487",
+      "roleId":"68657f0ddfc80da4c489b7f8",
+      "password":"123456789",
+}
+
+//Customer (Table Booking)
+{
+      "fullName":"Sangareshwari",
+      "mobile": "918870762159",
+      "roleId":"68657f0ddfc80da4c489b7f8",
+      "password":"123456789",
+}
+
+
+//Delivery
+{
+      "fullName":"Ganapathy",
+      "email": "ganapathi@gmail.com",
+      "mobile": "917845987752",
+      "roleId":"68657f0ddfc80da4c489b7f9",
+      "password":"123456789",
+}

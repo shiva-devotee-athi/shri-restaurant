@@ -1,0 +1,37 @@
+2. Tables Table
+{
+    "tableNumber": "Service",
+    "capacity": 4,
+    "locationDescription": "Balcony View",
+    "isCombinable": true,
+    "status": "Available"
+}
+
+
+
+7. Reservations Table
+The core table for booking details.
+
+user_id (Foreign Key to Users.user_id, INT/UUID) - The customer who made the reservation.
+
+restaurant_id (Foreign Key to Restaurants.restaurant_id, INT/UUID)
+
+number_of_guests (INT) - The requested number of guests for this booking.
+
+reservation_date (DATE)
+
+reservation_time (TIME)
+
+duration_minutes (INT, DEFAULT 90) - How long the table is reserved for (e.g., 90 minutes, 120 minutes).
+
+status (ENUM('Pending', 'Confirmed', 'Cancelled', 'No-Show', 'Seated', 'Completed'), DEFAULT 'Pending')
+
+special_requests (TEXT, NULLABLE, e.g., 'Birthday celebration', 'Allergies: peanuts', 'Window seat preferred')
+
+notes (TEXT, NULLABLE) - Internal notes for staff.
+
+booked_by_staff_id (Foreign Key to Staff.staff_id, INT/UUID, NULLABLE) - If a staff member made the booking.
+
+created_at (TIMESTAMP, DEFAULT CURRENT_TIMESTAMP)
+
+updated_at (TIMESTAMP, DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)
