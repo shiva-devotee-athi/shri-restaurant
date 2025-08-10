@@ -1,6 +1,6 @@
 # SHRI-RESTAURANT-APP
 
--Basic Idea
+- Basic Idea
 - - User Creation,
 - - Role based Authentication,
 - - Customer Order Food, Delivery Boy Deliver the food
